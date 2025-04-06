@@ -7,16 +7,22 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "lint:fix": "eslint --fix \"**/*.{js,jsx,ts,tsx,json}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md,json}\" --config ../building/.prettierrc",
     "preview": "vite preview"
   },
   "dependencies": {
     "@mantine/core": "^7.17.3",
+    "@mantine/emotion": "^7.17.3",
+    "@mantine/notifications": "^7.17.3",
+    "compose-function": "^3.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@types/compose-function": "^0.0.33",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
