@@ -1,7 +1,11 @@
+import {Container} from "@mantine/core";
+
 export const Header = () => {
     return (
         <>
-            Header
+            <Container>
+                Header
+            </Container>
         </>
     );
 };
