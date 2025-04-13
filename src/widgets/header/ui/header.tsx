@@ -1,10 +1,12 @@
-import {Container} from "@mantine/core";
+import {Container, Group, Text} from "@mantine/core";
 
 export const Header = () => {
     return (
         <>
             <Container>
-                Header
+                <Group>
+                    <Text>Header</Text>
+                </Group>
             </Container>
         </>
     );
