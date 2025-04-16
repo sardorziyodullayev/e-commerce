@@ -1,9 +1,9 @@
-import {Container} from "@mantine/core";
+import {Container, Text} from "@mantine/core";
 
 export const Footer = () => {
     return (
        <Container>
-           Footer
+           <Text>Footer</Text>
        </Container>
     );
 };
