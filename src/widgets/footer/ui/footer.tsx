@@ -5,6 +5,7 @@ export const Footer = () => {
        <Container>
            <Text>Footer</Text>
            <Image src="image.jpg" alt="Image"/>
+           <Text>lorem lorem</Text>
        </Container>
     );
 };
